@@ -26,6 +26,7 @@
     
     NSLog(@"%@",str);
     
+    self.title = @"首页";
 }
 
 - (void)didReceiveMemoryWarning {

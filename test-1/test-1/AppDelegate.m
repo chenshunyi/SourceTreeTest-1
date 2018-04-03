@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //创建一个tabbar
+    TabbarViewController *tabbar = [[TabbarViewController alloc] init];
+    //tabbar作为nav导航控制器的跟视图控制器
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:tabbar];
+    //导航控制器作为window的跟视图控制器
+    self.window.rootViewController = nav;
+    
+    //下一步  进入到TabbarViewController去设置TabbarViewController的子页面
+    
     return YES;
 }
 
