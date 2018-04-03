@@ -15,6 +15,7 @@
 		04B4513420731C0B006CFD25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4513220731C0B006CFD25 /* LaunchScreen.storyboard */; };
 		04B4513F20731C0B006CFD25 /* test_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4513E20731C0B006CFD25 /* test_1Tests.m */; };
 		04B4514A20731C0B006CFD25 /* test_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4514920731C0B006CFD25 /* test_1UITests.m */; };
+		04B4515920732323006CFD25 /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4515820732323006CFD25 /* SelfViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04B4514520731C0B006CFD25 /* test-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B4514920731C0B006CFD25 /* test_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_1UITests.m; sourceTree = "<group>"; };
 		04B4514B20731C0B006CFD25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B4515720732323006CFD25 /* SelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfViewController.h; sourceTree = "<group>"; };
+		04B4515820732323006CFD25 /* SelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				04B4512820731C0B006CFD25 /* AppDelegate.m */,
 				04B4512A20731C0B006CFD25 /* ViewController.h */,
 				04B4512B20731C0B006CFD25 /* ViewController.m */,
+				04B4515720732323006CFD25 /* SelfViewController.h */,
+				04B4515820732323006CFD25 /* SelfViewController.m */,
 				04B4512D20731C0B006CFD25 /* Main.storyboard */,
 				04B4513020731C0B006CFD25 /* Assets.xcassets */,
 				04B4513220731C0B006CFD25 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B4515920732323006CFD25 /* SelfViewController.m in Sources */,
 				04B4512C20731C0B006CFD25 /* ViewController.m in Sources */,
 				04B4512920731C0B006CFD25 /* AppDelegate.m in Sources */,
 				04B4512620731C0B006CFD25 /* main.m in Sources */,
