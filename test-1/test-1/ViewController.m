@@ -22,6 +22,9 @@
    
     NSLog(@"陈顺意第一天的任务做完了  我提交代码");
     
+    
+    NSLog(@"%@",str);
+    
 }
 
 - (void)didReceiveMemoryWarning {
