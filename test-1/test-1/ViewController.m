@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,19 @@
     NSLog(@"%@",str);
     
     self.title = @"首页";
+    
+    
+    //第一个视图
+    Person *p = [[Person alloc] init];
+    
+    [p run];
+    
+    
+    
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

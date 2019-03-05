@@ -17,6 +17,8 @@
 		04B4514A20731C0B006CFD25 /* test_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4514920731C0B006CFD25 /* test_1UITests.m */; };
 		04B4515920732323006CFD25 /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4515820732323006CFD25 /* SelfViewController.m */; };
 		04B4515F207329D5006CFD25 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B4515E207329D5006CFD25 /* SecondViewController.m */; };
+		184CDB9422252062001AC08F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CDB9322252062001AC08F /* Person.m */; };
+		184CDB9722252096001AC08F /* Person+Run.m in Sources */ = {isa = PBXBuildFile; fileRef = 184CDB9622252096001AC08F /* Person+Run.m */; };
 		2F180FB420732541006D56B1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F180FB320732541006D56B1 /* CustomView.m */; };
 		2F1B8333207360E6000DE69D /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1B8332207360E6000DE69D /* TabbarViewController.m */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,10 @@
 		04B4515820732323006CFD25 /* SelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
 		04B4515D207329D5006CFD25 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		04B4515E207329D5006CFD25 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		184CDB9222252062001AC08F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		184CDB9322252062001AC08F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		184CDB9522252096001AC08F /* Person+Run.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Run.h"; sourceTree = "<group>"; };
+		184CDB9622252096001AC08F /* Person+Run.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Run.m"; sourceTree = "<group>"; };
 		2F180FB220732541006D56B1 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		2F180FB320732541006D56B1 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		2F1B8331207360E6000DE69D /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
@@ -119,6 +125,10 @@
 				2F1B8332207360E6000DE69D /* TabbarViewController.m */,
 				04B4512A20731C0B006CFD25 /* ViewController.h */,
 				04B4512B20731C0B006CFD25 /* ViewController.m */,
+				184CDB9222252062001AC08F /* Person.h */,
+				184CDB9322252062001AC08F /* Person.m */,
+				184CDB9522252096001AC08F /* Person+Run.h */,
+				184CDB9622252096001AC08F /* Person+Run.m */,
 				04B4515720732323006CFD25 /* SelfViewController.h */,
 				04B4515820732323006CFD25 /* SelfViewController.m */,
 				04B4515D207329D5006CFD25 /* SecondViewController.h */,
@@ -294,7 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B4515F207329D5006CFD25 /* SecondViewController.m in Sources */,
+				184CDB9722252096001AC08F /* Person+Run.m in Sources */,
 				2F180FB420732541006D56B1 /* CustomView.m in Sources */,
+				184CDB9422252062001AC08F /* Person.m in Sources */,
 				04B4515920732323006CFD25 /* SelfViewController.m in Sources */,
 				04B4512C20731C0B006CFD25 /* ViewController.m in Sources */,
 				2F1B8333207360E6000DE69D /* TabbarViewController.m in Sources */,
@@ -446,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.house.test-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.house.test-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
